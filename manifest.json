@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Minimalist Cat Pet",
+  "version": "1.0",
+  "description": "A transparent cat that gives you Catfirmations!",
+  "icons": {
+    "16": "images/standingcat.png",
+    "48": "images/standingcat.png",
+    "128": "images/standingcat.png"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "css": ["content.css"]
+  }],
+  "web_accessible_resources": [{
+    "resources": ["images/*.png"],
+    "matches": ["<all_urls>"]
+  }]
+}
+

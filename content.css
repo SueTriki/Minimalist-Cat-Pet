@@ -1,0 +1,68 @@
+#floating-cat {
+  width: 80px;
+  height: 80px;
+  cursor: grab;
+  z-index: 999999;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  transition: all 0.3s ease;
+  image-rendering: crisp-edges;
+}
+
+/* Vibrant edge-only glow */
+:root.cat-dark-mode #floating-cat,
+body.cat-dark-mode #floating-cat {
+  box-shadow: none !important;
+  filter: 
+    drop-shadow(0 0 1px hsl(120, 100%, 50%))
+    drop-shadow(0 0 2px hsl(120, 100%, 50%))
+    drop-shadow(0 0 3px hsl(120, 100%, 50%))
+    drop-shadow(0 0 5px hsl(120, 100%, 50%));
+  animation: sharp-glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes sharp-glow {
+  0% {
+    filter: 
+      drop-shadow(0 0 1px hsl(120, 100%, 60%))
+      drop-shadow(0 0 2px hsl(120, 100%, 60%))
+      drop-shadow(0 0 3px hsl(120, 100%, 60%));
+  }
+  100% {
+    filter: 
+      drop-shadow(0 0 2px hsl(120, 100%, 60%))
+      drop-shadow(0 0 4px hsl(120, 100%, 60%))
+      drop-shadow(0 0 6px hsl(120, 100%, 60%));
+  }
+}
+
+#floating-cat:hover {
+  transform: scale(1.1);
+}
+
+.affirmation-bubble {
+  position: fixed;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000000;
+  animation: floatUp 0.8s ease-out forwards;
+  max-width: 150px;
+  text-align: center;
+}
+
+:root.cat-dark-mode .affirmation-bubble,
+body.cat-dark-mode .affirmation-bubble {
+  background: rgba(30, 30, 30, 0.95);
+  color: limegreen;
+  border: 1px solid rgba(0, 255, 0, 0.3);
+  box-shadow: 
+    0 0 8px rgba(0, 255, 0, 0.3),
+    0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes floatUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(-5px); }
+}
