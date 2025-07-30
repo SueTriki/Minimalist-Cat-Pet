@@ -4,7 +4,7 @@ A minimalist browser extension that delivers random, cat-themed affirmations. Be
 
 
 
-![Catfirmations Demo](assets/catfirmations-demo.gif)
+![Catfirmations Demo](assets/demo1.webm)
 
 
 
