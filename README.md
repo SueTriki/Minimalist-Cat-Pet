@@ -5,7 +5,7 @@ A minimalist browser extension that delivers random, cat-themed affirmations. Be
 # Demo Gifs
 
 
-![](
+![](https://github.com/SueTriki/Minimalist-Cat-Pet/blob/main/assets/demo1.0.gif)
 
 ![](https://github.com/SueTriki/Minimalist-Cat-Pet/blob/main/assets/demo2.gif)
 
