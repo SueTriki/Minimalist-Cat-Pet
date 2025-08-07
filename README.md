@@ -2,10 +2,9 @@
 A minimalist browser extension that delivers random, cat-themed affirmations. Because life is hard, but cats are unbothered.
 
 
-# Demo Gifs
+# Demo Gif
 
-
-![](https://github.com/SueTriki/Minimalist-Cat-Pet/blob/main/assets/demo1.0.gif)
+The cat on system darkmode:
 
 ![](https://github.com/SueTriki/Minimalist-Cat-Pet/blob/main/assets/demo2.gif)
 
