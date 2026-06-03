@@ -1,0 +1,75 @@
+/* content.css - Fixed for sharp rendering on all browsers */
+#floating-cat {
+  width: 80px;
+  height: 80px;
+  cursor: grab;
+  z-index: 999999;
+  transition: transform 0.2s ease;
+
+  /* Force hardware acceleration but keep scale at 1:1 */
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+
+  /* Disable any smoothing/filtering that causes blur */
+  -webkit-font-smoothing: none;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+
+  /* Ensure image displays at native resolution */
+  object-fit: contain;
+  display: block;
+}
+
+/* Vibrant edge-only glow - uses outline for no blur impact */
+:root.cat-dark-mode #floating-cat,
+body.cat-dark-mode #floating-cat {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  outline: none;
+  animation: sharp-glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes sharp-glow {
+  0% {
+    filter: drop-shadow(0 0 1px #00ff00) drop-shadow(0 0 2px #00ff00);
+  }
+  100% {
+    filter: drop-shadow(0 0 2px #00ff00) drop-shadow(0 0 4px #00ff00);
+  }
+}
+
+#floating-cat:hover {
+  transform: translate3d(0, 0, 0) scale(1.1);
+}
+
+.affirmation-bubble {
+  position: fixed;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000000;
+  animation: floatUp 0.8s ease-out forwards;
+  max-width: 150px;
+  text-align: center;
+  pointer-events: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+:root.cat-dark-mode .affirmation-bubble,
+body.cat-dark-mode .affirmation-bubble {
+  background: rgba(30, 30, 30, 0.95);
+  color: #00ff00;
+  border: 1px solid rgba(0, 255, 0, 0.3);
+  box-shadow: 0 0 8px rgba(0, 255, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes floatUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+}
