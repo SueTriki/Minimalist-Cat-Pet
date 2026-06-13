@@ -1,8 +1,10 @@
 # 🐱 Minimalist Cat Pet Chrome Extension
-A minimalist browser extension that delivers Toxic, cat-themed affirmations. Because I love cats.
+A minimalist browser extension that delivers random, cat-themed quotes. Because I love cats.
 
 
 # Demo Gif
+The cat on system lightmode:
+![](
 
 The cat on system darkmode:
 
