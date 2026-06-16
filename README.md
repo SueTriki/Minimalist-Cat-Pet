@@ -1,8 +1,8 @@
-# 🐱 Minimalist Cat Pet Chrome Extension
+# Minimalist Cat Pet all browsers Extension
 A minimalist browser extension that delivers random, cat-themed quotes. Because I love cats.
 
 
-# Demo Gif
+# Demo:
 The cat on system lightmode:
 
 ![](https://github.com/SueTriki/Minimalist-Cat-Pet/blob/main/assets/demo1.0.gif)
