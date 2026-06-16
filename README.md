@@ -5,7 +5,7 @@ A minimalist browser extension that delivers random, cat-themed quotes. Because 
 # Demo:
 The cat on system lightmode:
 
-![](https://github.com/SueTriki/Minimalist-Cat-Pet/blob/main/assets/demo1.0.gif)
+![](https://github.com/SueTriki/Minimalist-Cat-Pet/blob/main/assets/)
 
 The cat on system darkmode:
 
