@@ -1,4 +1,4 @@
-# Minimalist Cat Pet all browsers Extension
+# Black Cat Pet all browsers Extension
 A minimalist browser extension that delivers random, cat-themed quotes. Because I love cats.
 
 
@@ -13,7 +13,7 @@ The cat on system darkmode:
 
 
 
-## Features ✨
+## Features:
 
 - Interactive floating cat that follows your cursor
 - Toggle between standing/sitting poses with a click
@@ -22,18 +22,18 @@ The cat on system darkmode:
 - Draggable - place your cat anywhere on screen
 - Crisp pixel-perfect rendering
 
-## Installation ⚙️
+## Installation:
 
-Since this extension isn't published in the Chrome Web Store, install it manually:
+install it manually:
 
 1. Download this repository (click "Code" → "Download ZIP")
 2. Extract the ZIP file
-3. Open Chrome and go to `chrome://extensions`
+3. Open your browser go to extentions manager
 4. Enable "Developer mode" (toggle in top right)
 5. Click "Load unpacked"
 6. Select the extracted folder
 
-## Development 🛠️
+## Development 
 
 Want to customize?
 
