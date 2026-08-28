@@ -15,12 +15,11 @@ The cat on system darkmode:
 
 ## Features:
 
-- Interactive floating cat that follows your cursor
+- Interactive floating cat that glows on system dark mode
 - Toggle between standing/sitting poses with a click
 - Random motivational "Catfirmations" on click
 - Automatic dark mode detection with special glow effect
 - Draggable - place your cat anywhere on screen
-- Crisp pixel-perfect rendering
 
 ## Installation:
 
