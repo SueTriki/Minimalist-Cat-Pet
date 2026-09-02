@@ -1,6 +1,9 @@
 # Black Cat Pet all browsers Extension
 A minimalist browser extension that delivers random, cat-themed quotes. Because I love cats.
 
+## firefox add-ons store link: 
+https://addons.mozilla.org/en-US/firefox/addon/mini-cat-pet/
+
 
 # Demo:
 The cat on system lightmode:
