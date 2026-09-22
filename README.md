@@ -50,4 +50,4 @@ Want to customize?
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#286e2a', 'V3A622KJI2');kofiwidget2.draw();</script> 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V3A622KJI2)
