@@ -4,6 +4,9 @@ A minimalist browser extension that delivers random, cat-themed quotes. Because 
 ## firefox add-ons store link: 
 https://addons.mozilla.org/en-US/firefox/addon/mini-cat-pet/
 
+## Opera add-ons store link:
+https://addons.opera.com/en/extensions/details/mini-cat-pet/
+
 
 # Demo:
 The cat on system lightmode:
