@@ -1,7 +1,7 @@
 # Black Cat Pet all browsers Extension
-A minimalist browser extension that delivers random, cat-themed quotes. Because I love cats.
+A minimalist cat-themed extension. Because I love cats.
 
-## firefox add-ons store link: 
+## Firefox add-ons store link: 
 https://addons.mozilla.org/en-US/firefox/addon/mini-cat-pet/
 
 ## Opera add-ons store link:
@@ -33,7 +33,7 @@ install it manually:
 
 1. Download this repository (click "Code" → "Download ZIP")
 2. Extract the ZIP file
-3. Open your browser go to extentions manager
+3. Open your browser go to extensions manager
 4. Enable "Developer mode" (toggle in top right)
 5. Click "Load unpacked"
 6. Select the extracted folder
